@@ -13,3 +13,4 @@
 *.tfstate
 *.tfstate.backup
 *.tfvars
+18-Azure-Container-Registry-ACR/18-03-ACR-not-attached-to-AKS-Schedule-to-VirtualNodes/kube-manifests/azure-aks-kubernetes-masterclass.code-workspace
