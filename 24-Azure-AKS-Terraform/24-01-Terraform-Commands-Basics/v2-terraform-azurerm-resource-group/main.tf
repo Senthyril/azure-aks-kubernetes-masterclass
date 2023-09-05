@@ -4,6 +4,7 @@ provider "azurerm" {
   # Terraform recommends to pin to a specific version of provide
   #version = "=2.35.0"
   #version = "~>2.35.0"
+  skip_provider_registration = "true"
   features {}
 }
 
@@ -11,7 +12,7 @@ provider "azurerm" {
 # Create a Azure Resource Group
 resource "azurerm_resource_group" "aks-rg2" {
   name     = "aks-rg2-tf"
-  location = "Central US"
+  location = "East US"
 
 # Add Tags
 #  tags = {
